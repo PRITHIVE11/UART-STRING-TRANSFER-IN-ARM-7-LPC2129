@@ -1,0 +1,9 @@
+#include<lpc21xx.h>
+#include"uartheader.h"
+
+int main()
+{
+	UART0_CONFIG();
+	UART0_STR("VECTOR INDIA");
+	
+}
